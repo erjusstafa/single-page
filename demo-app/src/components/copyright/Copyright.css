@@ -1,0 +1,11 @@
+.copy {
+    height: 3vh;
+    width: 100%;
+    position: absolute;
+    top: 360vh ;
+    background-color: rgb(255, 255, 255);
+    color: #202020;
+    position: absolute;
+    text-align: center;
+align-items: center;
+}

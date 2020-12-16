@@ -1,0 +1,214 @@
+.background-1{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 70vh;
+    background-color: rgb(230, 233, 233);
+}
+
+.paragraph{
+    color: rgb(17, 51, 51);
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    top: 30px;
+    animation : anim 4s ease-in-out infinite;
+}
+
+
+@keyframes anim {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+    40% , 100%{
+        transform: translateY(0px);
+    }
+    
+}
+/*------------------------------------------------------------------------------------------------------------------------*/ 
+
+ .card-elon {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:10vh;
+    left: 100px;
+    text-align: center;
+    box-shadow: 4px 7px 12px rgb(139, 138, 135);
+    transition: transform 2s;
+}
+
+.card-elon:hover {
+    transform: scale(1.1);
+  }
+
+.gradient {
+    height: 40px;
+    background: linear-gradient(to right, gray , rgb(22, 34, 32))
+}
+
+.photo1 {
+    position: relative;
+    top:-10px;
+    padding: 5px;
+    background-image: url('elon\ musk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translate(93px,30px);
+}
+
+ h2 {
+     text-align: center;
+     padding-top: 20px;
+     color: rgb(17, 73, 119);
+     animation: name 3s  ease-in-out ;
+
+}
+
+@keyframes name {
+
+}
+
+h3  {
+    color: teal;
+    text-align: left ;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+li{
+    list-style: none;
+    padding: 2px;
+    color: rgb(49, 90, 71);
+    margin: 2px auto;
+}
+
+
+
+/*-----------------------------------------------------------*/
+
+
+
+
+.card-mark {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:55vh;
+    left: 100px;
+    text-align: center;
+    box-shadow: 4px 7px 12px rgb(139, 138, 135);
+    transition: transform 2s;
+}
+.card-mark:hover {
+    transform: scale(1.1);
+  }
+
+
+.photo2 {
+    position: relative;
+    top:-10px;
+    padding: 5px;
+    background-image: url('mark.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translate(93px,30px);
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.card-clever {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:10vh;
+    right: 100px;
+    text-align: center;
+    box-shadow: 4px 7px 12px rgb(139, 138, 135);
+    transition: transform 2s;
+}
+.card-clever:hover {
+    transform: scale(1.1);
+  }
+
+
+  .photo3 {
+    position: relative;
+    top:-10px;
+    padding: 5px;
+    background-image: url('clever.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translate(93px,30px);
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.card-mina  {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:55vh;
+    right: 100px;
+    text-align: center;
+    box-shadow: 4px 7px 12px rgb(139, 138, 135);
+    transition: transform 2s;
+}
+.card-mina:hover {
+    transform: scale(1.1);
+  }
+
+
+ .photo4 {
+    position: relative;
+    top:-10px;
+    padding: 5px;
+    background-image: url('korean.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 20px;
+    transform: translate(93px,30px);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.image{
+    width: 600px;
+    height: 50vh;
+    position: absolute;
+    left: 490px;
+    top: 30vh;
+    color: white;
+    background-image: url('bi-photo-430x269-2.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 4px 7px 12px rgb(71, 41, 69);
+    transition: transform 2s;
+}
+
+.image:hover {
+    transform: scale(1.2);
+  }

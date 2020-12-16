@@ -1,0 +1,131 @@
+
+/*common*/
+
+
+.background-2{
+width: 100%;
+position: absolute;
+top: 220vh;
+height: 100vh;
+}
+
+h5{
+    color: rgb(48, 46, 46);
+    position: absolute;
+    top: 15vh;
+ left: 35%;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-bottom: solid;
+    padding-bottom: 30px;
+    
+}
+
+.icon {
+    background-color: rgb(4, 62, 85);
+    align-content: center;
+    position: absolute;
+    top: -150px;
+    left: 70px;
+    font-size: 50px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+ 
+.col-1 {
+    position: absolute;
+    top: 57vh;
+    height : 40vh;
+    width : 200px;
+    border-style: solid ;
+    left: 250px;
+}
+
+.p1{
+    color: black;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.inovat {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;   
+top: -40px;
+left:50px;
+font-weight: bold;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+ 
+.col-2 {
+    position: absolute;
+    top: 57vh;
+    height : 40vh;
+    width : 200px;
+    border-style: solid ;
+    left: 550px;
+}
+
+.design {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;   
+top: -40px;
+left:50px;
+font-weight: bold;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+ 
+.col-3 {
+    position: absolute;
+    top: 57vh;
+    height : 40vh;
+    width : 200px;
+    border-style: solid ;
+    left: 850px;
+}
+
+
+
+.mobile {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;   
+top: -40px;
+left:50px;
+font-weight: bold;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+.col-4 {
+    position: absolute;
+    top: 57vh;
+    height : 40vh;
+    width : 200px;
+    border-style: solid ;
+    left: 1150px;
+}
+
+.suport {
+    color: black;
+    text-decoration: underline;
+    position: absolute;   
+top: -40px;
+left:30px;
+font-weight: bold;
+}
+

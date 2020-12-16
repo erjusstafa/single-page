@@ -1,0 +1,108 @@
+.footer {
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 320vh ;
+    background-color: rgb(59, 59, 59);
+}
+
+
+.sms  {
+    position: absolute;
+    top: 60px;
+    right: 130px;
+    color: rgb(52, 118, 145);
+    text-transform: uppercase;
+}
+
+
+.call  {
+    position: absolute;
+    top: 130px;
+    right: 150px;
+}
+
+.email  {
+    position: absolute;
+    top: 170px;
+    right: 130px;
+}
+.loc{
+    position: absolute;
+    top: 210px;
+    right: 120px;
+    text-decoration: none;
+}
+
+.social-media  {
+    position: absolute;
+    height: 10px;
+    top: 270px;
+    right: 170px;    
+}
+
+
+.social-media :hover {
+   color : rgb(17, 95, 126);
+}
+
+.subscribe {
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    color: rgb(52, 118, 145)
+}
+
+.enter-email {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.frm {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+}
+
+.input {
+    height : 30px;
+    width: 250px;
+    text-align: center;
+    color: black;
+    
+}
+.submit {
+    height : 30px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: -200px;
+}
+
+.location {
+    position: absolute;
+    height: 3.5cm;
+    width: 3.5cm;
+    top: 10%;
+    background-image: url('cropped-logo-inovacion-white.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain; 
+    background-position: center;
+    left: 170px; 
+}
+
+.description {
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    top: 180px;
+    right: 1150px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    word-spacing: 7px;
+    font-weight: lighter;
+}

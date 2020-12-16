@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    scroll-behavior: smooth ;
+}
+
+.root {
+
+  scroll-behavior: smooth;
+    position : absolute ;
+    top: 0;
+    width : 100%;
+    opacity: .8;
+
+}
+.link {
+  text-decoration: none;
+}
+
+  .tool-bar{
+    background-color : #404040;
+  }
+
+.title{
+    position: absolute;
+    right: 30px;
+ }
+
+ .nav-icon {
+    position: absolute;
+    height: 1.3cm;
+    width: 2cm;
+    top: 15%;
+    background-image: url('cropped-logo-inovacion-white.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover; 
+    background-origin: initial;
+    left: 200px; 
+  }
+
+
+   ul {
+    list-style : none;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  ul li  {
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+    color: white;
+    display:inline-block ;
+  }
+   ul li:hover{
+    background: linear-gradient(to right, gray , #088)
+
+  }
